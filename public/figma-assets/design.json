@@ -1,8 +1,8 @@
 {
   "packageVersion": 2,
   "sourceFileKey": "P0o4H41k9PJhkv4ethuzA8",
-  "requestedNodeId": null,
-  "fetchedAt": "2026-11-20T18:30:24.398Z",
+  "requestedNodeId": "2:2",
+  "fetchedAt": "2026-11-20T18:31:58.447Z",
   "fileName": "Untitled",
   "selectedFrame": {
     "id": "2:2",
@@ -14,9 +14,9 @@
       "width": 1440,
       "height": 1120
     },
-    "selection": "first",
-    "requestedNodeId": null,
-    "requestedNodeType": null,
+    "selection": "explicit",
+    "requestedNodeId": "2:2",
+    "requestedNodeType": "FRAME",
     "sourceVersion": "2423979417619108360"
   },
   "screen": {

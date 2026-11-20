@@ -1,0 +1,348 @@
+.customization-panel {
+  width: 420px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5dd;
+  border-radius: 6px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.build-steps {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 10px;
+}
+
+.step {
+  font-weight: 500;
+  color: #77786f;
+  line-height: 1.2;
+}
+
+.step-active {
+  font-weight: 600;
+  color: #da4d25;
+}
+
+.step-separator {
+  font-weight: 400;
+  color: #c4c5bb;
+  font-size: 11px;
+  line-height: 1;
+}
+
+.selected-motorcycle {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.config-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #21221e;
+  margin: 0;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.model-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.model-name {
+  font-size: 12px;
+  font-weight: 400;
+  color: #77786f;
+  line-height: 1.2;
+}
+
+.change-model {
+  font-size: 11px;
+  font-weight: 500;
+  color: #21221e;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.change-model:hover {
+  color: #da4d25;
+}
+
+.panel-divider {
+  height: 1px;
+  background-color: #e5e5dd;
+  margin: 0;
+}
+
+.customization-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 10px;
+  font-weight: 600;
+  color: #77786f;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.section-status {
+  font-size: 11px;
+  font-weight: 400;
+  color: #77786f;
+  line-height: 1.2;
+}
+
+.section-price {
+  font-size: 11px;
+  font-weight: 500;
+  color: #21221e;
+  line-height: 1.2;
+}
+
+.paint-colors {
+  display: flex;
+  gap: 12px;
+}
+
+.color-option {
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  border: 1.5px solid #ffffff;
+  background: none;
+  padding: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.color-option.selected {
+  border-color: #21221e;
+}
+
+.color-option:hover {
+  border-color: #da4d25;
+}
+
+.color-swatch {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.selected-paint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.paint-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: #21221e;
+  line-height: 1.2;
+}
+
+.paint-finish {
+  font-size: 11px;
+  font-weight: 400;
+  color: #77786f;
+  line-height: 1.2;
+}
+
+.leather-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.leather-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  height: 44px;
+  border: 1px solid #e5e5dd;
+  border-radius: 4px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.leather-option.selected {
+  background-color: #f6f5f0;
+  border-color: #21221e;
+}
+
+.leather-option:hover {
+  border-color: #da4d25;
+}
+
+.leather-sample {
+  width: 24px;
+  height: 16px;
+  border-radius: 7px;
+  flex-shrink: 0;
+}
+
+.leather-name {
+  font-size: 11px;
+  font-weight: 600;
+  color: #21221e;
+  flex: 1;
+  line-height: 1.2;
+}
+
+.leather-option.selected .leather-name {
+  font-weight: 600;
+}
+
+.checkmark {
+  font-size: 12px;
+  font-weight: 400;
+  color: #21221e;
+  line-height: 1.2;
+}
+
+.exhaust-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 14px;
+  height: 60px;
+  border: 1px solid #e5e5dd;
+  border-radius: 4px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.exhaust-option:hover {
+  border-color: #da4d25;
+}
+
+.exhaust-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.exhaust-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: #21221e;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.exhaust-description {
+  font-size: 10px;
+  font-weight: 400;
+  color: #77786f;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.exhaust-toggle {
+  font-size: 18px;
+  color: #21221e;
+  line-height: 1;
+}
+
+.reset-configuration {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  padding: 8px 0;
+  transition: all 0.2s;
+}
+
+.reset-icon {
+  font-size: 16px;
+  color: #77786f;
+  line-height: 1;
+}
+
+.reset-text {
+  font-size: 11px;
+  font-weight: 400;
+  color: #77786f;
+  line-height: 1.2;
+}
+
+.reset-configuration:hover .reset-icon,
+.reset-configuration:hover .reset-text {
+  color: #da4d25;
+}
+
+@media (max-width: 1024px) {
+  .customization-panel {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .customization-panel {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .config-title {
+    font-size: 20px;
+    letter-spacing: -0.8px;
+  }
+
+  .paint-colors {
+    gap: 8px;
+  }
+
+  .color-option {
+    width: 36px;
+    height: 36px;
+  }
+
+  .leather-choices {
+    gap: 8px;
+  }
+
+  .leather-option {
+    height: 40px;
+    font-size: 10px;
+  }
+
+  .exhaust-option {
+    height: auto;
+    min-height: 56px;
+    padding: 12px;
+  }
+
+  .exhaust-info {
+    gap: 3px;
+  }
+
+  .exhaust-name {
+    font-size: 11px;
+  }
+
+  .exhaust-description {
+    font-size: 9px;
+  }
+}

@@ -1,0 +1,20 @@
+.configuration-workspace {
+  display: flex;
+  gap: 24px;
+  padding: 0 48px 26px 48px;
+  background-color: #f6f5f0;
+}
+
+@media (max-width: 1024px) {
+  .configuration-workspace {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .configuration-workspace {
+    padding: 0 16px 16px 16px;
+    gap: 16px;
+  }
+}

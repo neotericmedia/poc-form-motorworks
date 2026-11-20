@@ -8,8 +8,8 @@
     "width": 1440,
     "height": 1120
   },
-  "selection": "first",
-  "requestedNodeId": null,
-  "requestedNodeType": null,
+  "selection": "explicit",
+  "requestedNodeId": "2:2",
+  "requestedNodeType": "FRAME",
   "sourceVersion": "2423979417619108360"
 }

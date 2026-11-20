@@ -1,0 +1,87 @@
+.build-introduction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 48px 28px 48px;
+  background-color: #f6f5f0;
+  gap: 40px;
+}
+
+.intro-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.intro-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #da4d25;
+  letter-spacing: 1.8px;
+  line-height: 1.2;
+}
+
+.intro-title {
+  font-size: 46px;
+  font-weight: 600;
+  color: #21221e;
+  line-height: 1.2;
+  letter-spacing: -2.3px;
+  margin: 0;
+  max-width: 338px;
+}
+
+.intro-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.intro-subtitle {
+  font-size: 15px;
+  font-weight: 500;
+  color: #21221e;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.intro-description {
+  font-size: 13px;
+  font-weight: 400;
+  color: #77786f;
+  margin: 0;
+  line-height: 1.2;
+}
+
+@media (max-width: 1024px) {
+  .build-introduction {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .intro-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 640px) {
+  .build-introduction {
+    padding: 20px 16px 16px 16px;
+    gap: 16px;
+  }
+
+  .intro-title {
+    font-size: 28px;
+    letter-spacing: -1.5px;
+  }
+
+  .intro-subtitle {
+    font-size: 14px;
+  }
+
+  .intro-description {
+    font-size: 12px;
+  }
+}

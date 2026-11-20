@@ -3,19 +3,5 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: var(--color-background);
-}
-
-.builder-layout {
-  display: flex;
-  flex: 1;
-  gap: var(--spacing-md);
-  padding: var(--spacing-lg);
-  overflow: hidden;
-}
-
-@media (max-width: 1024px) {
-  .builder-layout {
-    flex-direction: column;
-  }
+  background-color: #f6f5f0;
 }

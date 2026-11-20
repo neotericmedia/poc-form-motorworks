@@ -1,0 +1,68 @@
+.control-panel {
+  width: 320px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.control-panel h2 {
+  font-size: var(--font-size-xl);
+  margin: 0;
+  color: var(--color-text);
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.control-group label {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
+}
+
+.control-group select,
+.control-group input[type="color"] {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  font-family: var(--font-family-sans);
+  background: white;
+  cursor: pointer;
+}
+
+.control-group select:hover,
+.control-group input[type="color"]:hover {
+  border-color: var(--color-accent-orange);
+}
+
+.btn-save {
+  background: var(--color-accent-orange);
+  color: white;
+  border: none;
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  margin-top: var(--spacing-md);
+  transition: background var(--transition-base);
+}
+
+.btn-save:hover {
+  background: var(--color-accent-orange-dark);
+}
+
+@media (max-width: 1024px) {
+  .control-panel {
+    width: 100%;
+  }
+}

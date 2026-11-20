@@ -1,0 +1,15 @@
+{
+  "id": "2:2",
+  "name": "FORME — Custom motorcycle builder",
+  "page": "Page 1",
+  "bounds": {
+    "x": -720,
+    "y": -560,
+    "width": 1440,
+    "height": 1120
+  },
+  "selection": "first",
+  "requestedNodeId": null,
+  "requestedNodeType": null,
+  "sourceVersion": "2423979417619108360"
+}

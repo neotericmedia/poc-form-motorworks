@@ -1,0 +1,5402 @@
+{
+  "packageVersion": 2,
+  "sourceFileKey": "P0o4H41k9PJhkv4ethuzA8",
+  "requestedNodeId": null,
+  "fetchedAt": "2026-11-20T18:30:24.398Z",
+  "fileName": "Untitled",
+  "selectedFrame": {
+    "id": "2:2",
+    "name": "FORME — Custom motorcycle builder",
+    "page": "Page 1",
+    "bounds": {
+      "x": -720,
+      "y": -560,
+      "width": 1440,
+      "height": 1120
+    },
+    "selection": "first",
+    "requestedNodeId": null,
+    "requestedNodeType": null,
+    "sourceVersion": "2423979417619108360"
+  },
+  "screen": {
+    "id": "2:2",
+    "name": "FORME — Custom motorcycle builder",
+    "type": "FRAME",
+    "bounds": {
+      "x": -720,
+      "y": -560,
+      "width": 1440,
+      "height": 1120
+    },
+    "constraints": {
+      "vertical": "TOP",
+      "horizontal": "LEFT"
+    },
+    "box": "1440×1120",
+    "layout": "col",
+    "fill": "solid #f6f5f0",
+    "children": [
+      {
+        "id": "2:3",
+        "name": "Navigation",
+        "type": "FRAME",
+        "bounds": {
+          "x": -720,
+          "y": -560,
+          "width": 1440,
+          "height": 88
+        },
+        "justify": "SPACE_BETWEEN",
+        "crossAlign": "CENTER",
+        "constraints": {
+          "vertical": "TOP",
+          "horizontal": "LEFT"
+        },
+        "box": "1440×88",
+        "layout": "row",
+        "pad": "0/48/0/48",
+        "fill": "solid #f6f5f0",
+        "stroke": "solid #ddded5 1px",
+        "children": [
+          {
+            "id": "2:8",
+            "name": "Brand",
+            "type": "FRAME",
+            "bounds": {
+              "x": -672,
+              "y": -533.5,
+              "width": 195,
+              "height": 34
+            },
+            "crossAlign": "CENTER",
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "box": "195×34",
+            "layout": "row",
+            "gap": 12,
+            "children": [
+              {
+                "id": "2:9",
+                "name": "FORME",
+                "type": "TEXT",
+                "bounds": {
+                  "x": -672,
+                  "y": -533.5,
+                  "width": 95,
+                  "height": 34
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "95×34",
+                "fill": "solid #21221e",
+                "text": "FORME",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Black",
+                  "fontWeight": 900,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 28,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": -1.68,
+                  "lineHeightPx": 33.8863639831543,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 28px 900",
+                "align": "left"
+              },
+              {
+                "id": "2:10",
+                "name": "MOTORWORKS",
+                "type": "TEXT",
+                "bounds": {
+                  "x": -565,
+                  "y": -522.5,
+                  "width": 88,
+                  "height": 12
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "88×12",
+                "fill": "solid #77786f",
+                "text": "MOTORWORKS",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Medium",
+                  "fontWeight": 500,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 10,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 1.6,
+                  "lineHeightPx": 12.102272033691406,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 10px 500",
+                "align": "left"
+              }
+            ]
+          },
+          {
+            "id": "2:11",
+            "name": "Main navigation",
+            "type": "FRAME",
+            "bounds": {
+              "x": -152.5,
+              "y": -524.5,
+              "width": 363,
+              "height": 16
+            },
+            "crossAlign": "CENTER",
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "box": "363×16",
+            "layout": "row",
+            "gap": 40,
+            "children": [
+              {
+                "id": "2:12",
+                "name": "The motorcycles",
+                "type": "TEXT",
+                "bounds": {
+                  "x": -152.5,
+                  "y": -524.5,
+                  "width": 103,
+                  "height": 16
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "103×16",
+                "fill": "solid #77786f",
+                "text": "The motorcycles",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Regular",
+                  "fontWeight": 400,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 13,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 15.732954025268555,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 13px 400",
+                "align": "left"
+              },
+              {
+                "id": "2:13",
+                "name": "Build your own",
+                "type": "TEXT",
+                "bounds": {
+                  "x": -9.5,
+                  "y": -524.5,
+                  "width": 93,
+                  "height": 16
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "93×16",
+                "fill": "solid #21221e",
+                "text": "Build your own",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Semi Bold",
+                  "fontWeight": 600,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 13,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 15.732954025268555,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 13px 600",
+                "align": "left"
+              },
+              {
+                "id": "2:14",
+                "name": "Our workshop",
+                "type": "TEXT",
+                "bounds": {
+                  "x": 123.5,
+                  "y": -524.5,
+                  "width": 87,
+                  "height": 16
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "87×16",
+                "fill": "solid #77786f",
+                "text": "Our workshop",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Regular",
+                  "fontWeight": 400,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 13,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 15.732954025268555,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 13px 400",
+                "align": "left"
+              }
+            ]
+          },
+          {
+            "id": "2:15",
+            "name": "Saved builds",
+            "type": "FRAME",
+            "bounds": {
+              "x": 535,
+              "y": -529,
+              "width": 137,
+              "height": 25
+            },
+            "crossAlign": "CENTER",
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "box": "137×25",
+            "layout": "row",
+            "gap": 10,
+            "children": [
+              {
+                "id": "2:16",
+                "name": "Saved builds",
+                "type": "TEXT",
+                "bounds": {
+                  "x": 535,
+                  "y": -524.5,
+                  "width": 79,
+                  "height": 16
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "79×16",
+                "fill": "solid #21221e",
+                "text": "Saved builds",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Regular",
+                  "fontWeight": 400,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 13,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 15.732954025268555,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 13px 400",
+                "align": "left"
+              },
+              {
+                "id": "2:17",
+                "name": "(0)",
+                "type": "TEXT",
+                "bounds": {
+                  "x": 624,
+                  "y": -524,
+                  "width": 17,
+                  "height": 15
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "17×15",
+                "fill": "solid #77786f",
+                "text": "(0)",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Regular",
+                  "fontWeight": 400,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 12,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 14.522727012634277,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 12px 400",
+                "align": "left"
+              },
+              {
+                "id": "2:18",
+                "name": "↗",
+                "type": "TEXT",
+                "bounds": {
+                  "x": 651,
+                  "y": -529,
+                  "width": 21,
+                  "height": 25
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "21×25",
+                "fill": "solid #21221e",
+                "text": "↗",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Regular",
+                  "fontWeight": 400,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 21,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 25.414772033691406,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 21px 400",
+                "align": "left"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2:4",
+        "name": "Build introduction",
+        "type": "FRAME",
+        "bounds": {
+          "x": -720,
+          "y": -472,
+          "width": 1440,
+          "height": 148
+        },
+        "justify": "SPACE_BETWEEN",
+        "crossAlign": "CENTER",
+        "constraints": {
+          "vertical": "TOP",
+          "horizontal": "LEFT"
+        },
+        "box": "1440×148",
+        "layout": "row",
+        "pad": "30/48/28/48",
+        "fill": "solid #f6f5f0",
+        "children": [
+          {
+            "id": "2:19",
+            "name": "Page title",
+            "type": "FRAME",
+            "bounds": {
+              "x": -672,
+              "y": -435,
+              "width": 338,
+              "height": 76
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "box": "338×76",
+            "layout": "col",
+            "gap": 8,
+            "children": [
+              {
+                "id": "2:20",
+                "name": "THE CUSTOM GARAGE",
+                "type": "TEXT",
+                "bounds": {
+                  "x": -672,
+                  "y": -435,
+                  "width": 141,
+                  "height": 12
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "141×12",
+                "fill": "solid #da4d25",
+                "text": "THE CUSTOM GARAGE",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Bold",
+                  "fontWeight": 700,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 10,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 1.7999999999999998,
+                  "lineHeightPx": 12.102272033691406,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 10px 700",
+                "align": "left"
+              },
+              {
+                "id": "2:21",
+                "name": "Built around you.",
+                "type": "TEXT",
+                "bounds": {
+                  "x": -672,
+                  "y": -415,
+                  "width": 338,
+                  "height": 56
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "338×56",
+                "fill": "solid #21221e",
+                "text": "Built around you.",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Semi Bold",
+                  "fontWeight": 600,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 46,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": -2.3000000000000003,
+                  "lineHeightPx": 55.67045211791992,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 46px 600",
+                "align": "left"
+              }
+            ]
+          },
+          {
+            "id": "2:22",
+            "name": "Introduction copy",
+            "type": "FRAME",
+            "bounds": {
+              "x": 377,
+              "y": -418,
+              "width": 295,
+              "height": 42
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "box": "295×42",
+            "layout": "col",
+            "gap": 8,
+            "children": [
+              {
+                "id": "2:23",
+                "name": "A machine with your name on it.",
+                "type": "TEXT",
+                "bounds": {
+                  "x": 377,
+                  "y": -418,
+                  "width": 230,
+                  "height": 18
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "230×18",
+                "fill": "solid #21221e",
+                "text": "A machine with your name on it.",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Medium",
+                  "fontWeight": 500,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 15,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 18.15340805053711,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 15px 500",
+                "align": "left"
+              },
+              {
+                "id": "2:24",
+                "name": "Start with a classic. Make it unmistakably yours.",
+                "type": "TEXT",
+                "bounds": {
+                  "x": 377,
+                  "y": -392,
+                  "width": 295,
+                  "height": 16
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "295×16",
+                "fill": "solid #77786f",
+                "text": "Start with a classic. Make it unmistakably yours.",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Regular",
+                  "fontWeight": 400,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 13,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 15.732954025268555,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 13px 400",
+                "align": "left"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2:5",
+        "name": "Configuration workspace",
+        "type": "FRAME",
+        "bounds": {
+          "x": -720,
+          "y": -324,
+          "width": 1440,
+          "height": 650
+        },
+        "constraints": {
+          "vertical": "TOP",
+          "horizontal": "LEFT"
+        },
+        "box": "1440×650",
+        "layout": "row",
+        "gap": 24,
+        "pad": "0/48/26/48",
+        "fill": "solid #f6f5f0",
+        "children": [
+          {
+            "id": "2:25",
+            "name": "Motorcycle preview",
+            "type": "FRAME",
+            "bounds": {
+              "x": -672,
+              "y": -324,
+              "width": 900,
+              "height": 624
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "box": "900×624",
+            "layout": "col",
+            "children": [
+              {
+                "id": "2:26",
+                "name": "Motorcycle studio",
+                "type": "FRAME",
+                "bounds": {
+                  "x": -672,
+                  "y": -324,
+                  "width": 900,
+                  "height": 476
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "900×476",
+                "radius": 6,
+                "fill": "solid #ecede6",
+                "children": [
+                  {
+                    "id": "2:27",
+                    "name": "Custom olive café racer",
+                    "type": "RECTANGLE",
+                    "bounds": {
+                      "x": -672,
+                      "y": -324,
+                      "width": 900,
+                      "height": 476
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "images": [
+                      {
+                        "ref": "2e40e3dc81ad594c0fe897bffd59280394c1b773",
+                        "scaleMode": "FILL"
+                      }
+                    ],
+                    "box": "900×476",
+                    "fill": "image"
+                  },
+                  {
+                    "id": "2:30",
+                    "name": "THE STANDARD",
+                    "type": "TEXT",
+                    "bounds": {
+                      "x": -646,
+                      "y": -299,
+                      "width": 127,
+                      "height": 18
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "127×18",
+                    "fill": "solid #21221e",
+                    "text": "THE STANDARD",
+                    "typography": {
+                      "fontFamily": "Inter",
+                      "fontPostScriptName": null,
+                      "fontStyle": "Bold",
+                      "fontWeight": 700,
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "fontSize": 15,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "letterSpacing": 0.8999999999999999,
+                      "lineHeightPx": 18.15340805053711,
+                      "lineHeightPercent": 100,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "font": "Inter 15px 700",
+                    "align": "left"
+                  },
+                  {
+                    "id": "2:31",
+                    "name": "650  /  CAFÉ RACER",
+                    "type": "TEXT",
+                    "bounds": {
+                      "x": -646,
+                      "y": -275,
+                      "width": 109,
+                      "height": 12
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "109×12",
+                    "fill": "solid #77786f",
+                    "text": "650  /  CAFÉ RACER",
+                    "typography": {
+                      "fontFamily": "Inter",
+                      "fontPostScriptName": null,
+                      "fontStyle": "Medium",
+                      "fontWeight": 500,
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "fontSize": 10,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "letterSpacing": 0.8,
+                      "lineHeightPx": 12.102272033691406,
+                      "lineHeightPercent": 100,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "font": "Inter 10px 500",
+                    "align": "left"
+                  },
+                  {
+                    "id": "2:32",
+                    "name": "Handbuilt status",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": -50,
+                      "y": -297,
+                      "width": 173,
+                      "height": 12
+                    },
+                    "crossAlign": "CENTER",
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "173×12",
+                    "layout": "row",
+                    "gap": 7,
+                    "children": [
+                      {
+                        "id": "2:33",
+                        "name": "Olive status dot",
+                        "type": "ELLIPSE",
+                        "bounds": {
+                          "x": -50,
+                          "y": -294,
+                          "width": 6,
+                          "height": 6
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "6×6",
+                        "fill": "solid #657258"
+                      },
+                      {
+                        "id": "2:34",
+                        "name": "Handbuilt. Never mass-produced.",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": -37,
+                          "y": -297,
+                          "width": 160,
+                          "height": 12
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "160×12",
+                        "fill": "solid #21221e",
+                        "text": "Handbuilt. Never mass-produced.",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 10,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 12.102272033691406,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 10px 400",
+                        "align": "left"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2:35",
+                    "name": "View controls",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": -646,
+                      "y": 111,
+                      "width": 121,
+                      "height": 13
+                    },
+                    "crossAlign": "CENTER",
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "121×13",
+                    "layout": "row",
+                    "gap": 8,
+                    "children": [
+                      {
+                        "id": "2:36",
+                        "name": "01",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": -646,
+                          "y": 111,
+                          "width": 13,
+                          "height": 13
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "13×13",
+                        "fill": "solid #21221e",
+                        "text": "01",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Semi Bold",
+                          "fontWeight": 600,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 11,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 13.3125,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 11px 600",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:37",
+                        "name": "/  03",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": -625,
+                          "y": 111,
+                          "width": 24,
+                          "height": 13
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "24×13",
+                        "fill": "solid #77786f",
+                        "text": "/  03",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 11,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 13.3125,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 11px 400",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:38",
+                        "name": "SIDE PROFILE",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": -593,
+                          "y": 112,
+                          "width": 68,
+                          "height": 11
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "68×11",
+                        "fill": "solid #77786f",
+                        "text": "SIDE PROFILE",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Medium",
+                          "fontWeight": 500,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 9,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0.72,
+                          "lineHeightPx": 10.892045021057129,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 9px 500",
+                        "align": "left"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2:39",
+                    "name": "Zoom controls",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 124,
+                      "y": 96,
+                      "width": 78,
+                      "height": 36
+                    },
+                    "justify": "SPACE_BETWEEN",
+                    "crossAlign": "CENTER",
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "78×36",
+                    "layout": "row",
+                    "gap": 12,
+                    "pad": "0/12/0/12",
+                    "radius": 4,
+                    "fill": "solid #f6f5f0",
+                    "children": [
+                      {
+                        "id": "2:40",
+                        "name": "−",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 136,
+                          "y": 102,
+                          "width": 14,
+                          "height": 24
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "14×24",
+                        "fill": "solid #21221e",
+                        "text": "−",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 20,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 24.204544067382812,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 20px 400",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:41",
+                        "name": "+",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 176,
+                          "y": 102,
+                          "width": 14,
+                          "height": 24
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "14×24",
+                        "fill": "solid #21221e",
+                        "text": "+",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 20,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 24.204544067382812,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 20px 400",
+                        "align": "left"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2:28",
+                "name": "Motorcycle specifications",
+                "type": "FRAME",
+                "bounds": {
+                  "x": -672,
+                  "y": 152,
+                  "width": 900,
+                  "height": 148
+                },
+                "justify": "SPACE_BETWEEN",
+                "crossAlign": "CENTER",
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "900×148",
+                "layout": "row",
+                "gap": 24,
+                "pad": "0/26/0/26",
+                "children": [
+                  {
+                    "id": "2:42",
+                    "name": "ENGINE",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": -646,
+                      "y": 198.5,
+                      "width": 71,
+                      "height": 55
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "71×55",
+                    "layout": "col",
+                    "gap": 9,
+                    "children": [
+                      {
+                        "id": "2:43",
+                        "name": "ENGINE",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": -646,
+                          "y": 198.5,
+                          "width": 43,
+                          "height": 12
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "43×12",
+                        "fill": "solid #77786f",
+                        "text": "ENGINE",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Semi Bold",
+                          "fontWeight": 600,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 10,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 1,
+                          "lineHeightPx": 12.102272033691406,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 10px 600",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:44",
+                        "name": "ENGINE value",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": -646,
+                          "y": 219.5,
+                          "width": 71,
+                          "height": 34
+                        },
+                        "crossAlign": "BASELINE",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "71×34",
+                        "layout": "row",
+                        "gap": 5,
+                        "children": [
+                          {
+                            "id": "2:45",
+                            "name": "648",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": -646,
+                              "y": 219.5,
+                              "width": 52,
+                              "height": 34
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "52×34",
+                            "fill": "solid #21221e",
+                            "text": "648",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Medium",
+                              "fontWeight": 500,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 28,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": -1.12,
+                              "lineHeightPx": 33.8863639831543,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 28px 500",
+                            "align": "left"
+                          },
+                          {
+                            "id": "2:46",
+                            "name": "cc",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": -589,
+                              "y": 234.5,
+                              "width": 14,
+                              "height": 15
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "14×15",
+                            "fill": "solid #77786f",
+                            "text": "cc",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Regular",
+                              "fontWeight": 400,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 12,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": 0,
+                              "lineHeightPx": 14.522727012634277,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 12px 400",
+                            "align": "left"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2:47",
+                    "name": "PEAK POWER",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": -385,
+                      "y": 198.5,
+                      "width": 75,
+                      "height": 55
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "75×55",
+                    "layout": "col",
+                    "gap": 9,
+                    "children": [
+                      {
+                        "id": "2:48",
+                        "name": "PEAK POWER",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": -385,
+                          "y": 198.5,
+                          "width": 75,
+                          "height": 12
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "75×12",
+                        "fill": "solid #77786f",
+                        "text": "PEAK POWER",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Semi Bold",
+                          "fontWeight": 600,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 10,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 1,
+                          "lineHeightPx": 12.102272033691406,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 10px 600",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:49",
+                        "name": "PEAK POWER value",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": -385,
+                          "y": 219.5,
+                          "width": 54,
+                          "height": 34
+                        },
+                        "crossAlign": "BASELINE",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "54×34",
+                        "layout": "row",
+                        "gap": 5,
+                        "children": [
+                          {
+                            "id": "2:50",
+                            "name": "47",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": -385,
+                              "y": 219.5,
+                              "width": 34,
+                              "height": 34
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "34×34",
+                            "fill": "solid #21221e",
+                            "text": "47",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Medium",
+                              "fontWeight": 500,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 28,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": -1.12,
+                              "lineHeightPx": 33.8863639831543,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 28px 500",
+                            "align": "left"
+                          },
+                          {
+                            "id": "2:51",
+                            "name": "hp",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": -346,
+                              "y": 234.5,
+                              "width": 15,
+                              "height": 15
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "15×15",
+                            "fill": "solid #77786f",
+                            "text": "hp",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Regular",
+                              "fontWeight": 400,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 12,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": 0,
+                              "lineHeightPx": 14.522727012634277,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 12px 400",
+                            "align": "left"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2:52",
+                    "name": "TORQUE",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": -120,
+                      "y": 198.5,
+                      "width": 59,
+                      "height": 55
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "59×55",
+                    "layout": "col",
+                    "gap": 9,
+                    "children": [
+                      {
+                        "id": "2:53",
+                        "name": "TORQUE",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": -120,
+                          "y": 198.5,
+                          "width": 47,
+                          "height": 12
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "47×12",
+                        "fill": "solid #77786f",
+                        "text": "TORQUE",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Semi Bold",
+                          "fontWeight": 600,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 10,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 1,
+                          "lineHeightPx": 12.102272033691406,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 10px 600",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:54",
+                        "name": "TORQUE value",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": -120,
+                          "y": 219.5,
+                          "width": 59,
+                          "height": 34
+                        },
+                        "crossAlign": "BASELINE",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "59×34",
+                        "layout": "row",
+                        "gap": 5,
+                        "children": [
+                          {
+                            "id": "2:55",
+                            "name": "52",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": -120,
+                              "y": 219.5,
+                              "width": 34,
+                              "height": 34
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "34×34",
+                            "fill": "solid #21221e",
+                            "text": "52",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Medium",
+                              "fontWeight": 500,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 28,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": -1.12,
+                              "lineHeightPx": 33.8863639831543,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 28px 500",
+                            "align": "left"
+                          },
+                          {
+                            "id": "2:56",
+                            "name": "Nm",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": -81,
+                              "y": 234.5,
+                              "width": 20,
+                              "height": 15
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "20×15",
+                            "fill": "solid #77786f",
+                            "text": "Nm",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Regular",
+                              "fontWeight": 400,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 12,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": 0,
+                              "lineHeightPx": 14.522727012634277,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 12px 400",
+                            "align": "left"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2:57",
+                    "name": "DRY WEIGHT",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 129,
+                      "y": 198.5,
+                      "width": 73,
+                      "height": 55
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "73×55",
+                    "layout": "col",
+                    "gap": 9,
+                    "children": [
+                      {
+                        "id": "2:58",
+                        "name": "DRY WEIGHT",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 129,
+                          "y": 198.5,
+                          "width": 73,
+                          "height": 12
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "73×12",
+                        "fill": "solid #77786f",
+                        "text": "DRY WEIGHT",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Semi Bold",
+                          "fontWeight": 600,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 10,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 1,
+                          "lineHeightPx": 12.102272033691406,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 10px 600",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:59",
+                        "name": "DRY WEIGHT value",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": 129,
+                          "y": 219.5,
+                          "width": 66,
+                          "height": 34
+                        },
+                        "crossAlign": "BASELINE",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "66×34",
+                        "layout": "row",
+                        "gap": 5,
+                        "children": [
+                          {
+                            "id": "2:60",
+                            "name": "196",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": 129,
+                              "y": 219.5,
+                              "width": 47,
+                              "height": 34
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "47×34",
+                            "fill": "solid #21221e",
+                            "text": "196",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Medium",
+                              "fontWeight": 500,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 28,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": -1.12,
+                              "lineHeightPx": 33.8863639831543,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 28px 500",
+                            "align": "left"
+                          },
+                          {
+                            "id": "2:61",
+                            "name": "kg",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": 181,
+                              "y": 234.5,
+                              "width": 14,
+                              "height": 15
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "14×15",
+                            "fill": "solid #77786f",
+                            "text": "kg",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Regular",
+                              "fontWeight": 400,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 12,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": 0,
+                              "lineHeightPx": 14.522727012634277,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 12px 400",
+                            "align": "left"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2:29",
+            "name": "Customization panel",
+            "type": "FRAME",
+            "bounds": {
+              "x": 252,
+              "y": -324,
+              "width": 420,
+              "height": 624
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "box": "420×624",
+            "layout": "col",
+            "gap": 20,
+            "pad": "24/24/24/24",
+            "radius": 6,
+            "fill": "solid #ffffff",
+            "stroke": "solid #e5e5dd 1px",
+            "children": [
+              {
+                "id": "2:62",
+                "name": "Build steps",
+                "type": "FRAME",
+                "bounds": {
+                  "x": 277,
+                  "y": -299,
+                  "width": 233,
+                  "height": 13
+                },
+                "crossAlign": "CENTER",
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "233×13",
+                "layout": "row",
+                "gap": 12,
+                "children": [
+                  {
+                    "id": "2:63",
+                    "name": "01  Base",
+                    "type": "TEXT",
+                    "bounds": {
+                      "x": 277,
+                      "y": -298.5,
+                      "width": 40,
+                      "height": 12
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "40×12",
+                    "fill": "solid #77786f",
+                    "text": "01  Base",
+                    "typography": {
+                      "fontFamily": "Inter",
+                      "fontPostScriptName": null,
+                      "fontStyle": "Medium",
+                      "fontWeight": 500,
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "fontSize": 10,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "letterSpacing": 0,
+                      "lineHeightPx": 12.102272033691406,
+                      "lineHeightPercent": 100,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "font": "Inter 10px 500",
+                    "align": "left"
+                  },
+                  {
+                    "id": "2:64",
+                    "name": "—",
+                    "type": "TEXT",
+                    "bounds": {
+                      "x": 329,
+                      "y": -299,
+                      "width": 11,
+                      "height": 13
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "11×13",
+                    "fill": "solid #c4c5bb",
+                    "text": "—",
+                    "typography": {
+                      "fontFamily": "Inter",
+                      "fontPostScriptName": null,
+                      "fontStyle": "Regular",
+                      "fontWeight": 400,
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "fontSize": 11,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "letterSpacing": 0,
+                      "lineHeightPx": 13.3125,
+                      "lineHeightPercent": 100,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "font": "Inter 11px 400",
+                    "align": "left"
+                  },
+                  {
+                    "id": "2:65",
+                    "name": "02  Customize",
+                    "type": "TEXT",
+                    "bounds": {
+                      "x": 352,
+                      "y": -298.5,
+                      "width": 70,
+                      "height": 12
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "70×12",
+                    "fill": "solid #da4d25",
+                    "text": "02  Customize",
+                    "typography": {
+                      "fontFamily": "Inter",
+                      "fontPostScriptName": null,
+                      "fontStyle": "Semi Bold",
+                      "fontWeight": 600,
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "fontSize": 10,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "letterSpacing": 0,
+                      "lineHeightPx": 12.102272033691406,
+                      "lineHeightPercent": 100,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "font": "Inter 10px 600",
+                    "align": "left"
+                  },
+                  {
+                    "id": "2:66",
+                    "name": "—",
+                    "type": "TEXT",
+                    "bounds": {
+                      "x": 434,
+                      "y": -299,
+                      "width": 11,
+                      "height": 13
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "11×13",
+                    "fill": "solid #c4c5bb",
+                    "text": "—",
+                    "typography": {
+                      "fontFamily": "Inter",
+                      "fontPostScriptName": null,
+                      "fontStyle": "Regular",
+                      "fontWeight": 400,
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "fontSize": 11,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "letterSpacing": 0,
+                      "lineHeightPx": 13.3125,
+                      "lineHeightPercent": 100,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "font": "Inter 11px 400",
+                    "align": "left"
+                  },
+                  {
+                    "id": "2:67",
+                    "name": "03  Review",
+                    "type": "TEXT",
+                    "bounds": {
+                      "x": 457,
+                      "y": -298.5,
+                      "width": 53,
+                      "height": 12
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "53×12",
+                    "fill": "solid #77786f",
+                    "text": "03  Review",
+                    "typography": {
+                      "fontFamily": "Inter",
+                      "fontPostScriptName": null,
+                      "fontStyle": "Medium",
+                      "fontWeight": 500,
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "fontSize": 10,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "letterSpacing": 0,
+                      "lineHeightPx": 12.102272033691406,
+                      "lineHeightPercent": 100,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "font": "Inter 10px 500",
+                    "align": "left"
+                  }
+                ]
+              },
+              {
+                "id": "2:68",
+                "name": "Selected motorcycle",
+                "type": "FRAME",
+                "bounds": {
+                  "x": 277,
+                  "y": -266,
+                  "width": 370,
+                  "height": 53
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "370×53",
+                "layout": "col",
+                "gap": 8,
+                "children": [
+                  {
+                    "id": "2:69",
+                    "name": "Configuration title",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 277,
+                      "y": -266,
+                      "width": 370,
+                      "height": 30
+                    },
+                    "justify": "SPACE_BETWEEN",
+                    "crossAlign": "CENTER",
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "370×30",
+                    "layout": "row",
+                    "gap": 12,
+                    "children": [
+                      {
+                        "id": "2:70",
+                        "name": "Make it yours.",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 277,
+                          "y": -266,
+                          "width": 157,
+                          "height": 30
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "157×30",
+                        "fill": "solid #21221e",
+                        "text": "Make it yours.",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Semi Bold",
+                          "fontWeight": 600,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 25,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": -1,
+                          "lineHeightPx": 30.25568199157715,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 25px 600",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:71",
+                        "name": "↗",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 627,
+                          "y": -263,
+                          "width": 20,
+                          "height": 24
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "20×24",
+                        "fill": "solid #77786f",
+                        "text": "↗",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 20,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 24.204544067382812,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 20px 400",
+                        "align": "left"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2:72",
+                    "name": "Model selector",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 277,
+                      "y": -228,
+                      "width": 370,
+                      "height": 15
+                    },
+                    "justify": "SPACE_BETWEEN",
+                    "crossAlign": "CENTER",
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "370×15",
+                    "layout": "row",
+                    "gap": 12,
+                    "children": [
+                      {
+                        "id": "2:73",
+                        "name": "The Standard 650",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 277,
+                          "y": -228,
+                          "width": 103,
+                          "height": 15
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "103×15",
+                        "fill": "solid #77786f",
+                        "text": "The Standard 650",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 12,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 14.522727012634277,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 12px 400",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:74",
+                        "name": "Change model",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 570,
+                          "y": -227,
+                          "width": 77,
+                          "height": 13
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "77×13",
+                        "fill": "solid #21221e",
+                        "text": "Change model",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Medium",
+                          "fontWeight": 500,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "textDecoration": "UNDERLINE",
+                          "fontSize": 11,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 13.3125,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 11px 500",
+                        "align": "left"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2:75",
+                "name": "Divider",
+                "type": "RECTANGLE",
+                "bounds": {
+                  "x": 277,
+                  "y": -193,
+                  "width": 370,
+                  "height": 1
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "370×1",
+                "fill": "solid #e5e5dd"
+              },
+              {
+                "id": "2:76",
+                "name": "Tank finish",
+                "type": "FRAME",
+                "bounds": {
+                  "x": 277,
+                  "y": -172,
+                  "width": 370,
+                  "height": 88
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "370×88",
+                "layout": "col",
+                "gap": 10,
+                "children": [
+                  {
+                    "id": "2:77",
+                    "name": "Finish label",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 277,
+                      "y": -172,
+                      "width": 370,
+                      "height": 13
+                    },
+                    "justify": "SPACE_BETWEEN",
+                    "crossAlign": "CENTER",
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "370×13",
+                    "layout": "row",
+                    "gap": 12,
+                    "children": [
+                      {
+                        "id": "2:78",
+                        "name": "01 / TANK FINISH",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 277,
+                          "y": -171.5,
+                          "width": 98,
+                          "height": 12
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "98×12",
+                        "fill": "solid #77786f",
+                        "text": "01 / TANK FINISH",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Semi Bold",
+                          "fontWeight": 600,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 10,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 1,
+                          "lineHeightPx": 12.102272033691406,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 10px 600",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:79",
+                        "name": "Included",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 602,
+                          "y": -172,
+                          "width": 45,
+                          "height": 13
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "45×13",
+                        "fill": "solid #77786f",
+                        "text": "Included",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 11,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 13.3125,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 11px 400",
+                        "align": "left"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2:80",
+                    "name": "Paint colors",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 277,
+                      "y": -149,
+                      "width": 248,
+                      "height": 40
+                    },
+                    "crossAlign": "CENTER",
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "248×40",
+                    "layout": "row",
+                    "gap": 12,
+                    "children": [
+                      {
+                        "id": "2:81",
+                        "name": "Forest olive",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": 277,
+                          "y": -149,
+                          "width": 40,
+                          "height": 40
+                        },
+                        "justify": "CENTER",
+                        "crossAlign": "CENTER",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "40×40",
+                        "layout": "row",
+                        "gap": 12,
+                        "radius": 24,
+                        "stroke": "solid #21221e 1.5px",
+                        "children": [
+                          {
+                            "id": "2:82",
+                            "name": "Forest olive paint",
+                            "type": "ELLIPSE",
+                            "bounds": {
+                              "x": 283,
+                              "y": -143,
+                              "width": 28,
+                              "height": 28
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "28×28",
+                            "fill": "solid #616b54"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "2:83",
+                        "name": "Carbon black",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": 329,
+                          "y": -149,
+                          "width": 40,
+                          "height": 40
+                        },
+                        "justify": "CENTER",
+                        "crossAlign": "CENTER",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "40×40",
+                        "layout": "row",
+                        "gap": 12,
+                        "radius": 24,
+                        "stroke": "solid #ffffff 1.5px",
+                        "children": [
+                          {
+                            "id": "2:84",
+                            "name": "Carbon black paint",
+                            "type": "ELLIPSE",
+                            "bounds": {
+                              "x": 335,
+                              "y": -143,
+                              "width": 28,
+                              "height": 28
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "28×28",
+                            "fill": "solid #292b29"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "2:85",
+                        "name": "Bone white",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": 381,
+                          "y": -149,
+                          "width": 40,
+                          "height": 40
+                        },
+                        "justify": "CENTER",
+                        "crossAlign": "CENTER",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "40×40",
+                        "layout": "row",
+                        "gap": 12,
+                        "radius": 24,
+                        "stroke": "solid #ffffff 1.5px",
+                        "children": [
+                          {
+                            "id": "2:86",
+                            "name": "Bone white paint",
+                            "type": "ELLIPSE",
+                            "bounds": {
+                              "x": 387,
+                              "y": -143,
+                              "width": 28,
+                              "height": 28
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "28×28",
+                            "fill": "solid #e8e4d9"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "2:87",
+                        "name": "Oxide red",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": 433,
+                          "y": -149,
+                          "width": 40,
+                          "height": 40
+                        },
+                        "justify": "CENTER",
+                        "crossAlign": "CENTER",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "40×40",
+                        "layout": "row",
+                        "gap": 12,
+                        "radius": 24,
+                        "stroke": "solid #ffffff 1.5px",
+                        "children": [
+                          {
+                            "id": "2:88",
+                            "name": "Oxide red paint",
+                            "type": "ELLIPSE",
+                            "bounds": {
+                              "x": 439,
+                              "y": -143,
+                              "width": 28,
+                              "height": 28
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "28×28",
+                            "fill": "solid #8e3e2f"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "2:89",
+                        "name": "Slate blue",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": 485,
+                          "y": -149,
+                          "width": 40,
+                          "height": 40
+                        },
+                        "justify": "CENTER",
+                        "crossAlign": "CENTER",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "40×40",
+                        "layout": "row",
+                        "gap": 12,
+                        "radius": 24,
+                        "stroke": "solid #ffffff 1.5px",
+                        "children": [
+                          {
+                            "id": "2:90",
+                            "name": "Slate blue paint",
+                            "type": "ELLIPSE",
+                            "bounds": {
+                              "x": 491,
+                              "y": -143,
+                              "width": 28,
+                              "height": 28
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "28×28",
+                            "fill": "solid #7e8e98"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2:91",
+                    "name": "Selected paint",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 277,
+                      "y": -99,
+                      "width": 137,
+                      "height": 15
+                    },
+                    "crossAlign": "CENTER",
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "137×15",
+                    "layout": "row",
+                    "gap": 8,
+                    "children": [
+                      {
+                        "id": "2:92",
+                        "name": "Forest olive",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 277,
+                          "y": -99,
+                          "width": 67,
+                          "height": 15
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "67×15",
+                        "fill": "solid #21221e",
+                        "text": "Forest olive",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Medium",
+                          "fontWeight": 500,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 12,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 14.522727012634277,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 12px 500",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:93",
+                        "name": "Matte finish",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 352,
+                          "y": -98,
+                          "width": 62,
+                          "height": 13
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "62×13",
+                        "fill": "solid #77786f",
+                        "text": "Matte finish",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 11,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 13.3125,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 11px 400",
+                        "align": "left"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2:94",
+                "name": "Seat selection",
+                "type": "FRAME",
+                "bounds": {
+                  "x": 277,
+                  "y": -64,
+                  "width": 370,
+                  "height": 69
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "370×69",
+                "layout": "col",
+                "gap": 12,
+                "children": [
+                  {
+                    "id": "2:95",
+                    "name": "Seat label",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 277,
+                      "y": -64,
+                      "width": 370,
+                      "height": 13
+                    },
+                    "justify": "SPACE_BETWEEN",
+                    "crossAlign": "CENTER",
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "370×13",
+                    "layout": "row",
+                    "gap": 12,
+                    "children": [
+                      {
+                        "id": "2:96",
+                        "name": "02 / LEATHER SEAT",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 277,
+                          "y": -63.5,
+                          "width": 111,
+                          "height": 12
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "111×12",
+                        "fill": "solid #77786f",
+                        "text": "02 / LEATHER SEAT",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Semi Bold",
+                          "fontWeight": 600,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 10,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 1,
+                          "lineHeightPx": 12.102272033691406,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 10px 600",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:97",
+                        "name": "Included",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 602,
+                          "y": -64,
+                          "width": 45,
+                          "height": 13
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "45×13",
+                        "fill": "solid #77786f",
+                        "text": "Included",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 11,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 13.3125,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 11px 400",
+                        "align": "left"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2:98",
+                    "name": "Leather choices",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 277,
+                      "y": -39,
+                      "width": 370,
+                      "height": 44
+                    },
+                    "crossAlign": "CENTER",
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "370×44",
+                    "layout": "row",
+                    "gap": 10,
+                    "children": [
+                      {
+                        "id": "2:99",
+                        "name": "Tobacco",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": 277,
+                          "y": -39,
+                          "width": 180,
+                          "height": 44
+                        },
+                        "crossAlign": "CENTER",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "180×44",
+                        "layout": "row",
+                        "gap": 8,
+                        "pad": "0/12/0/12",
+                        "radius": 4,
+                        "fill": "solid #f6f5f0",
+                        "stroke": "solid #21221e 1px",
+                        "children": [
+                          {
+                            "id": "2:100",
+                            "name": "Tobacco leather sample",
+                            "type": "RECTANGLE",
+                            "bounds": {
+                              "x": 290,
+                              "y": -25,
+                              "width": 24,
+                              "height": 16
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "24×16",
+                            "radius": 7,
+                            "fill": "solid #765340"
+                          },
+                          {
+                            "id": "2:101",
+                            "name": "Tobacco",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": 322,
+                              "y": -23.5,
+                              "width": 46,
+                              "height": 13
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "46×13",
+                            "fill": "solid #21221e",
+                            "text": "Tobacco",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Semi Bold",
+                              "fontWeight": 600,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 11,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": 0,
+                              "lineHeightPx": 13.3125,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 11px 600",
+                            "align": "left"
+                          },
+                          {
+                            "id": "2:102",
+                            "name": "✓",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": 376,
+                              "y": -24.5,
+                              "width": 11,
+                              "height": 15
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "11×15",
+                            "fill": "solid #21221e",
+                            "text": "✓",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Regular",
+                              "fontWeight": 400,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 12,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": 0,
+                              "lineHeightPx": 14.522727012634277,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 12px 400",
+                            "align": "left"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "2:103",
+                        "name": "Midnight",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": 467,
+                          "y": -39,
+                          "width": 180,
+                          "height": 44
+                        },
+                        "crossAlign": "CENTER",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "180×44",
+                        "layout": "row",
+                        "gap": 8,
+                        "pad": "0/12/0/12",
+                        "radius": 4,
+                        "fill": "solid #ffffff",
+                        "stroke": "solid #e5e5dd 1px",
+                        "children": [
+                          {
+                            "id": "2:104",
+                            "name": "Midnight leather sample",
+                            "type": "RECTANGLE",
+                            "bounds": {
+                              "x": 480,
+                              "y": -25,
+                              "width": 24,
+                              "height": 16
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "24×16",
+                            "radius": 7,
+                            "fill": "solid #292b29"
+                          },
+                          {
+                            "id": "2:105",
+                            "name": "Midnight",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": 512,
+                              "y": -23.5,
+                              "width": 46,
+                              "height": 13
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "46×13",
+                            "fill": "solid #21221e",
+                            "text": "Midnight",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Regular",
+                              "fontWeight": 400,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 11,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": 0,
+                              "lineHeightPx": 13.3125,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 11px 400",
+                            "align": "left"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2:106",
+                "name": "Exhaust selection",
+                "type": "FRAME",
+                "bounds": {
+                  "x": 277,
+                  "y": 25,
+                  "width": 370,
+                  "height": 85
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "370×85",
+                "layout": "col",
+                "gap": 12,
+                "children": [
+                  {
+                    "id": "2:107",
+                    "name": "Exhaust label",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 277,
+                      "y": 25,
+                      "width": 370,
+                      "height": 13
+                    },
+                    "justify": "SPACE_BETWEEN",
+                    "crossAlign": "CENTER",
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "370×13",
+                    "layout": "row",
+                    "gap": 12,
+                    "children": [
+                      {
+                        "id": "2:108",
+                        "name": "03 / EXHAUST",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 277,
+                          "y": 25.5,
+                          "width": 82,
+                          "height": 12
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "82×12",
+                        "fill": "solid #77786f",
+                        "text": "03 / EXHAUST",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Semi Bold",
+                          "fontWeight": 600,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 10,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 1,
+                          "lineHeightPx": 12.102272033691406,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 10px 600",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:109",
+                        "name": "+$350",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 611,
+                          "y": 25,
+                          "width": 36,
+                          "height": 13
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "36×13",
+                        "fill": "solid #21221e",
+                        "text": "+$350",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Medium",
+                          "fontWeight": 500,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 11,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 13.3125,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 11px 500",
+                        "align": "left"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2:110",
+                    "name": "Brushed steel exhaust",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 277,
+                      "y": 50,
+                      "width": 370,
+                      "height": 60
+                    },
+                    "justify": "SPACE_BETWEEN",
+                    "crossAlign": "CENTER",
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "370×60",
+                    "layout": "row",
+                    "gap": 12,
+                    "pad": "0/14/0/14",
+                    "radius": 4,
+                    "stroke": "solid #e5e5dd 1px",
+                    "children": [
+                      {
+                        "id": "2:111",
+                        "name": "Exhaust description",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": 292,
+                          "y": 64,
+                          "width": 330,
+                          "height": 32
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "330×32",
+                        "layout": "col",
+                        "gap": 5,
+                        "children": [
+                          {
+                            "id": "2:112",
+                            "name": "Brushed stainless",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": 292,
+                              "y": 64,
+                              "width": 104,
+                              "height": 15
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "104×15",
+                            "fill": "solid #21221e",
+                            "text": "Brushed stainless",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Semi Bold",
+                              "fontWeight": 600,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 12,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": 0,
+                              "lineHeightPx": 14.522727012634277,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 12px 600",
+                            "align": "left"
+                          },
+                          {
+                            "id": "2:113",
+                            "name": "Twin pipes. A deeper kind of roar.",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": 292,
+                              "y": 84,
+                              "width": 159,
+                              "height": 12
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "159×12",
+                            "fill": "solid #77786f",
+                            "text": "Twin pipes. A deeper kind of roar.",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Regular",
+                              "fontWeight": 400,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 10,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": 0,
+                              "lineHeightPx": 12.102272033691406,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 10px 400",
+                            "align": "left"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "2:114",
+                        "name": "⌄",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 622,
+                          "y": 69,
+                          "width": 10,
+                          "height": 22
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "10×22",
+                        "fill": "solid #21221e",
+                        "text": "⌄",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 18,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 21.784090042114258,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 18px 400",
+                        "align": "left"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "2:115",
+                "name": "Reset configuration",
+                "type": "FRAME",
+                "bounds": {
+                  "x": 277,
+                  "y": 130,
+                  "width": 108,
+                  "height": 19
+                },
+                "crossAlign": "CENTER",
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "108×19",
+                "layout": "row",
+                "gap": 7,
+                "children": [
+                  {
+                    "id": "2:116",
+                    "name": "↺",
+                    "type": "TEXT",
+                    "bounds": {
+                      "x": 277,
+                      "y": 130,
+                      "width": 16,
+                      "height": 19
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "16×19",
+                    "fill": "solid #77786f",
+                    "text": "↺",
+                    "typography": {
+                      "fontFamily": "Inter",
+                      "fontPostScriptName": null,
+                      "fontStyle": "Regular",
+                      "fontWeight": 400,
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "fontSize": 16,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "letterSpacing": 0,
+                      "lineHeightPx": 19.363636016845703,
+                      "lineHeightPercent": 100,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "font": "Inter 16px 400",
+                    "align": "left"
+                  },
+                  {
+                    "id": "2:117",
+                    "name": "Reset to original",
+                    "type": "TEXT",
+                    "bounds": {
+                      "x": 300,
+                      "y": 133,
+                      "width": 85,
+                      "height": 13
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "85×13",
+                    "fill": "solid #77786f",
+                    "text": "Reset to original",
+                    "typography": {
+                      "fontFamily": "Inter",
+                      "fontPostScriptName": null,
+                      "fontStyle": "Regular",
+                      "fontWeight": 400,
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "fontSize": 11,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "letterSpacing": 0,
+                      "lineHeightPx": 13.3125,
+                      "lineHeightPercent": 100,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "font": "Inter 11px 400",
+                    "align": "left"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2:6",
+        "name": "Build summary",
+        "type": "FRAME",
+        "bounds": {
+          "x": -720,
+          "y": 326,
+          "width": 1440,
+          "height": 154
+        },
+        "constraints": {
+          "vertical": "TOP",
+          "horizontal": "LEFT"
+        },
+        "box": "1440×154",
+        "layout": "col",
+        "pad": "0/48/18/48",
+        "fill": "solid #f6f5f0",
+        "children": [
+          {
+            "id": "2:118",
+            "name": "Your build summary",
+            "type": "FRAME",
+            "bounds": {
+              "x": -672,
+              "y": 326,
+              "width": 1344,
+              "height": 136
+            },
+            "justify": "SPACE_BETWEEN",
+            "crossAlign": "CENTER",
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "box": "1344×136",
+            "layout": "row",
+            "gap": 24,
+            "pad": "0/28/0/30",
+            "radius": 6,
+            "fill": "solid #242820",
+            "children": [
+              {
+                "id": "2:119",
+                "name": "Selected build",
+                "type": "FRAME",
+                "bounds": {
+                  "x": -642,
+                  "y": 356.5,
+                  "width": 335,
+                  "height": 75
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "335×75",
+                "layout": "col",
+                "gap": 10,
+                "children": [
+                  {
+                    "id": "2:120",
+                    "name": "YOUR ONE OF ONE",
+                    "type": "TEXT",
+                    "bounds": {
+                      "x": -642,
+                      "y": 356.5,
+                      "width": 112,
+                      "height": 12
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "112×12",
+                    "fill": "solid #b4b8aa",
+                    "text": "YOUR ONE OF ONE",
+                    "typography": {
+                      "fontFamily": "Inter",
+                      "fontPostScriptName": null,
+                      "fontStyle": "Semi Bold",
+                      "fontWeight": 600,
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "fontSize": 10,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "letterSpacing": 1.4000000000000001,
+                      "lineHeightPx": 12.102272033691406,
+                      "lineHeightPercent": 100,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "font": "Inter 10px 600",
+                    "align": "left"
+                  },
+                  {
+                    "id": "2:121",
+                    "name": "The Standard. Your signature.",
+                    "type": "TEXT",
+                    "bounds": {
+                      "x": -642,
+                      "y": 378.5,
+                      "width": 335,
+                      "height": 30
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "335×30",
+                    "fill": "solid #f6f5f0",
+                    "text": "The Standard. Your signature.",
+                    "typography": {
+                      "fontFamily": "Inter",
+                      "fontPostScriptName": null,
+                      "fontStyle": "Medium",
+                      "fontWeight": 500,
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "fontSize": 25,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "letterSpacing": -0.75,
+                      "lineHeightPx": 30.25568199157715,
+                      "lineHeightPercent": 100,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "font": "Inter 25px 500",
+                    "align": "left"
+                  },
+                  {
+                    "id": "2:122",
+                    "name": "Forest olive  /  Tobacco leather  /  Brushed stainless",
+                    "type": "TEXT",
+                    "bounds": {
+                      "x": -642,
+                      "y": 418.5,
+                      "width": 269,
+                      "height": 13
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "269×13",
+                    "fill": "solid #b4b8aa",
+                    "text": "Forest olive  /  Tobacco leather  /  Brushed stainless",
+                    "typography": {
+                      "fontFamily": "Inter",
+                      "fontPostScriptName": null,
+                      "fontStyle": "Regular",
+                      "fontWeight": 400,
+                      "textAutoResize": "WIDTH_AND_HEIGHT",
+                      "fontSize": 11,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "letterSpacing": 0,
+                      "lineHeightPx": 13.3125,
+                      "lineHeightPercent": 100,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "font": "Inter 11px 400",
+                    "align": "left"
+                  }
+                ]
+              },
+              {
+                "id": "2:123",
+                "name": "Price and checkout",
+                "type": "FRAME",
+                "bounds": {
+                  "x": 264,
+                  "y": 357,
+                  "width": 380,
+                  "height": 74
+                },
+                "crossAlign": "CENTER",
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "380×74",
+                "layout": "row",
+                "gap": 32,
+                "children": [
+                  {
+                    "id": "2:124",
+                    "name": "Total price",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 264,
+                      "y": 367,
+                      "width": 128,
+                      "height": 54
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "128×54",
+                    "layout": "col",
+                    "gap": 5,
+                    "children": [
+                      {
+                        "id": "2:125",
+                        "name": "ESTIMATED TOTAL",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 264,
+                          "y": 367,
+                          "width": 95,
+                          "height": 11
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "95×11",
+                        "fill": "solid #b4b8aa",
+                        "text": "ESTIMATED TOTAL",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Medium",
+                          "fontWeight": 500,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 9,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0.9,
+                          "lineHeightPx": 10.892045021057129,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 9px 500",
+                        "align": "left"
+                      },
+                      {
+                        "id": "2:126",
+                        "name": "Price",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": 264,
+                          "y": 383,
+                          "width": 128,
+                          "height": 38
+                        },
+                        "crossAlign": "BASELINE",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "128×38",
+                        "layout": "row",
+                        "gap": 7,
+                        "children": [
+                          {
+                            "id": "2:127",
+                            "name": "$9,850",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": 264,
+                              "y": 383,
+                              "width": 100,
+                              "height": 38
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "100×38",
+                            "fill": "solid #f6f5f0",
+                            "text": "$9,850",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Medium",
+                              "fontWeight": 500,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 31,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": -1.24,
+                              "lineHeightPx": 37.51704406738281,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 31px 500",
+                            "align": "left"
+                          },
+                          {
+                            "id": "2:128",
+                            "name": "USD",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": 371,
+                              "y": 403,
+                              "width": 21,
+                              "height": 12
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "21×12",
+                            "fill": "solid #b4b8aa",
+                            "text": "USD",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Regular",
+                              "fontWeight": 400,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 10,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": 0,
+                              "lineHeightPx": 12.102272033691406,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 10px 400",
+                            "align": "left"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2:129",
+                    "name": "Build action",
+                    "type": "FRAME",
+                    "bounds": {
+                      "x": 424,
+                      "y": 357,
+                      "width": 220,
+                      "height": 74
+                    },
+                    "constraints": {
+                      "vertical": "TOP",
+                      "horizontal": "LEFT"
+                    },
+                    "box": "220×74",
+                    "layout": "col",
+                    "gap": 10,
+                    "children": [
+                      {
+                        "id": "2:130",
+                        "name": "Review your build button",
+                        "type": "FRAME",
+                        "bounds": {
+                          "x": 424,
+                          "y": 357,
+                          "width": 220,
+                          "height": 52
+                        },
+                        "justify": "SPACE_BETWEEN",
+                        "crossAlign": "CENTER",
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "220×52",
+                        "layout": "row",
+                        "gap": 24,
+                        "pad": "0/20/0/20",
+                        "radius": 4,
+                        "fill": "solid #da4d25",
+                        "children": [
+                          {
+                            "id": "2:131",
+                            "name": "Review your build",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": 444,
+                              "y": 375,
+                              "width": 112,
+                              "height": 16
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "112×16",
+                            "fill": "solid #ffffff",
+                            "text": "Review your build",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Semi Bold",
+                              "fontWeight": 600,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 13,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": 0,
+                              "lineHeightPx": 15.732954025268555,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 13px 600",
+                            "align": "left"
+                          },
+                          {
+                            "id": "2:132",
+                            "name": "↗",
+                            "type": "TEXT",
+                            "bounds": {
+                              "x": 603,
+                              "y": 370.5,
+                              "width": 21,
+                              "height": 25
+                            },
+                            "constraints": {
+                              "vertical": "TOP",
+                              "horizontal": "LEFT"
+                            },
+                            "box": "21×25",
+                            "fill": "solid #ffffff",
+                            "text": "↗",
+                            "typography": {
+                              "fontFamily": "Inter",
+                              "fontPostScriptName": null,
+                              "fontStyle": "Regular",
+                              "fontWeight": 400,
+                              "textAutoResize": "WIDTH_AND_HEIGHT",
+                              "fontSize": 21,
+                              "textAlignHorizontal": "LEFT",
+                              "textAlignVertical": "TOP",
+                              "letterSpacing": 0,
+                              "lineHeightPx": 25.414772033691406,
+                              "lineHeightPercent": 100,
+                              "lineHeightUnit": "INTRINSIC_%"
+                            },
+                            "font": "Inter 21px 400",
+                            "align": "left"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "2:133",
+                        "name": "Made to order · Ready in 6–8 weeks",
+                        "type": "TEXT",
+                        "bounds": {
+                          "x": 424,
+                          "y": 419,
+                          "width": 170,
+                          "height": 12
+                        },
+                        "constraints": {
+                          "vertical": "TOP",
+                          "horizontal": "LEFT"
+                        },
+                        "box": "170×12",
+                        "fill": "solid #b4b8aa",
+                        "text": "Made to order · Ready in 6–8 weeks",
+                        "typography": {
+                          "fontFamily": "Inter",
+                          "fontPostScriptName": null,
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "textAutoResize": "WIDTH_AND_HEIGHT",
+                          "fontSize": 10,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "TOP",
+                          "letterSpacing": 0,
+                          "lineHeightPx": 12.102272033691406,
+                          "lineHeightPercent": 100,
+                          "lineHeightUnit": "INTRINSIC_%"
+                        },
+                        "font": "Inter 10px 400",
+                        "align": "left"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2:7",
+        "name": "Footer",
+        "type": "FRAME",
+        "bounds": {
+          "x": -720,
+          "y": 480,
+          "width": 1440,
+          "height": 80
+        },
+        "justify": "SPACE_BETWEEN",
+        "crossAlign": "CENTER",
+        "constraints": {
+          "vertical": "TOP",
+          "horizontal": "LEFT"
+        },
+        "box": "1440×80",
+        "layout": "row",
+        "pad": "0/48/18/48",
+        "fill": "solid #f6f5f0",
+        "children": [
+          {
+            "id": "2:134",
+            "name": "Craft promises",
+            "type": "FRAME",
+            "bounds": {
+              "x": -672,
+              "y": 504.5,
+              "width": 414,
+              "height": 13
+            },
+            "crossAlign": "CENTER",
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "box": "414×13",
+            "layout": "row",
+            "gap": 30,
+            "children": [
+              {
+                "id": "2:135",
+                "name": "BUILT BY HAND. RIDDEN BY YOU.",
+                "type": "TEXT",
+                "bounds": {
+                  "x": -672,
+                  "y": 505.5,
+                  "width": 170,
+                  "height": 11
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "170×11",
+                "fill": "solid #77786f",
+                "text": "BUILT BY HAND. RIDDEN BY YOU.",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Semi Bold",
+                  "fontWeight": 600,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 9,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0.9,
+                  "lineHeightPx": 10.892045021057129,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 9px 600",
+                "align": "left"
+              },
+              {
+                "id": "2:136",
+                "name": "2-year warranty",
+                "type": "TEXT",
+                "bounds": {
+                  "x": -472,
+                  "y": 504.5,
+                  "width": 84,
+                  "height": 13
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "84×13",
+                "fill": "solid #77786f",
+                "text": "2-year warranty",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Regular",
+                  "fontWeight": 400,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 11,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 13.3125,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 11px 400",
+                "align": "left"
+              },
+              {
+                "id": "2:137",
+                "name": "Worldwide delivery",
+                "type": "TEXT",
+                "bounds": {
+                  "x": -358,
+                  "y": 504.5,
+                  "width": 100,
+                  "height": 13
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "100×13",
+                "fill": "solid #77786f",
+                "text": "Worldwide delivery",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Regular",
+                  "fontWeight": 400,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 11,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 13.3125,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 11px 400",
+                "align": "left"
+              }
+            ]
+          },
+          {
+            "id": "2:138",
+            "name": "Builder support",
+            "type": "FRAME",
+            "bounds": {
+              "x": 464,
+              "y": 503.5,
+              "width": 208,
+              "height": 15
+            },
+            "crossAlign": "CENTER",
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "box": "208×15",
+            "layout": "row",
+            "gap": 12,
+            "children": [
+              {
+                "id": "2:139",
+                "name": "A little guidance?",
+                "type": "TEXT",
+                "bounds": {
+                  "x": 464,
+                  "y": 504.5,
+                  "width": 90,
+                  "height": 13
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "90×13",
+                "fill": "solid #77786f",
+                "text": "A little guidance?",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Regular",
+                  "fontWeight": 400,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 11,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 13.3125,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 11px 400",
+                "align": "left"
+              },
+              {
+                "id": "2:140",
+                "name": "Talk to a builder ↗",
+                "type": "TEXT",
+                "bounds": {
+                  "x": 566,
+                  "y": 503.5,
+                  "width": 106,
+                  "height": 15
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "box": "106×15",
+                "fill": "solid #21221e",
+                "text": "Talk to a builder ↗",
+                "typography": {
+                  "fontFamily": "Inter",
+                  "fontPostScriptName": null,
+                  "fontStyle": "Medium",
+                  "fontWeight": 500,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 12,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 14.522727012634277,
+                  "lineHeightPercent": 100,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "font": "Inter 12px 500",
+                "align": "left"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tokens": {
+    "colors": [
+      "solid #77786f ×33",
+      "solid #21221e ×25",
+      "solid #f6f5f0 ×10",
+      "solid #b4b8aa ×5",
+      "solid #ffffff ×4",
+      "stroke solid #ffffff ×4",
+      "solid #da4d25 ×3",
+      "stroke solid #e5e5dd ×3",
+      "solid #c4c5bb ×2",
+      "stroke solid #21221e ×2",
+      "solid #292b29 ×2",
+      "stroke solid #ddded5 ×1",
+      "solid #ecede6 ×1",
+      "image ×1",
+      "solid #657258 ×1",
+      "solid #e5e5dd ×1",
+      "solid #616b54 ×1",
+      "solid #e8e4d9 ×1",
+      "solid #8e3e2f ×1",
+      "solid #7e8e98 ×1",
+      "solid #765340 ×1",
+      "solid #242820 ×1"
+    ],
+    "typography": [
+      "Inter 400 11px /13 ×12",
+      "Inter 400 12px /15 ×7",
+      "Inter 600 10px /12 ls1.0 ×7",
+      "Inter 400 13px /16 ×4",
+      "Inter 400 10px /12 ×4",
+      "Inter 500 28px /34 ls-1.1 ×4",
+      "Inter 400 20px /24 ×3",
+      "Inter 600 13px /16 ×2",
+      "Inter 400 21px /25 ×2",
+      "Inter 600 11px /13 ×2",
+      "Inter 500 10px /12 ×2",
+      "Inter 500 11px /13 ×2",
+      "Inter 500 12px /15 ×2",
+      "Inter 900 28px /34 ls-1.7 ×1",
+      "Inter 500 10px /12 ls1.6 ×1",
+      "Inter 700 10px /12 ls1.8 ×1",
+      "Inter 600 46px /56 ls-2.3 ×1",
+      "Inter 500 15px /18 ×1",
+      "Inter 700 15px /18 ls0.9 ×1",
+      "Inter 500 10px /12 ls0.8 ×1",
+      "Inter 500 9px /11 ls0.7 ×1",
+      "Inter 600 10px /12 ×1",
+      "Inter 600 25px /30 ls-1.0 ×1",
+      "Inter 600 12px /15 ×1",
+      "Inter 400 18px /22 ×1",
+      "Inter 400 16px /19 ×1",
+      "Inter 600 10px /12 ls1.4 ×1",
+      "Inter 500 25px /30 ls-0.8 ×1",
+      "Inter 500 9px /11 ls0.9 ×1",
+      "Inter 500 31px /38 ls-1.2 ×1",
+      "Inter 600 9px /11 ls0.9 ×1"
+    ],
+    "radii": [
+      "4 ×5",
+      "24 ×5",
+      "6 ×3",
+      "7 ×2"
+    ],
+    "spacing": [
+      "12 ×18",
+      "8 ×7",
+      "5 ×6",
+      "10 ×5",
+      "24 ×4",
+      "9 ×4",
+      "7 ×3",
+      "40 ×1",
+      "20 ×1",
+      "32 ×1",
+      "30 ×1"
+    ],
+    "shadows": [],
+    "fontFamilies": [
+      "Inter"
+    ],
+    "variables": null
+  },
+  "styles": {},
+  "typography": [
+    {
+      "nodeId": "2:9",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Black",
+      "fontWeight": 900,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 28,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": -1.68,
+      "lineHeightPx": 33.8863639831543,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:10",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 1.6,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:12",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 13,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 15.732954025268555,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:13",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 13,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 15.732954025268555,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:14",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 13,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 15.732954025268555,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:16",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 13,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 15.732954025268555,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:17",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 12,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 14.522727012634277,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:18",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 21,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 25.414772033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:20",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Bold",
+      "fontWeight": 700,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 1.7999999999999998,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:21",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 46,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": -2.3000000000000003,
+      "lineHeightPx": 55.67045211791992,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:23",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 15,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 18.15340805053711,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:24",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 13,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 15.732954025268555,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:30",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Bold",
+      "fontWeight": 700,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 15,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0.8999999999999999,
+      "lineHeightPx": 18.15340805053711,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:31",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0.8,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:34",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:36",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:37",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:38",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 9,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0.72,
+      "lineHeightPx": 10.892045021057129,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:40",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 20,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 24.204544067382812,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:41",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 20,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 24.204544067382812,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:43",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 1,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:45",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 28,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": -1.12,
+      "lineHeightPx": 33.8863639831543,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:46",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 12,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 14.522727012634277,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:48",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 1,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:50",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 28,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": -1.12,
+      "lineHeightPx": 33.8863639831543,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:51",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 12,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 14.522727012634277,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:53",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 1,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:55",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 28,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": -1.12,
+      "lineHeightPx": 33.8863639831543,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:56",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 12,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 14.522727012634277,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:58",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 1,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:60",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 28,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": -1.12,
+      "lineHeightPx": 33.8863639831543,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:61",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 12,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 14.522727012634277,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:63",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:64",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:65",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:66",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:67",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:70",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 25,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": -1,
+      "lineHeightPx": 30.25568199157715,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:71",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 20,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 24.204544067382812,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:73",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 12,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 14.522727012634277,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:74",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textDecoration": "UNDERLINE",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:78",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 1,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:79",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:92",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 12,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 14.522727012634277,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:93",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:96",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 1,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:97",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:101",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:102",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 12,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 14.522727012634277,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:105",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:108",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 1,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:109",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:112",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 12,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 14.522727012634277,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:113",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:114",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 18,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 21.784090042114258,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:116",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 16,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 19.363636016845703,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:117",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:120",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 1.4000000000000001,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:121",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 25,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": -0.75,
+      "lineHeightPx": 30.25568199157715,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:122",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:125",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 9,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0.9,
+      "lineHeightPx": 10.892045021057129,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:127",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 31,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": -1.24,
+      "lineHeightPx": 37.51704406738281,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:128",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:131",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 13,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 15.732954025268555,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:132",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 21,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 25.414772033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:133",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 10,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 12.102272033691406,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:135",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 9,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0.9,
+      "lineHeightPx": 10.892045021057129,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:136",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:137",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:139",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 11,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 13.3125,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    },
+    {
+      "nodeId": "2:140",
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontSize": 12,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "letterSpacing": 0,
+      "lineHeightPx": 14.522727012634277,
+      "lineHeightPercent": 100,
+      "lineHeightUnit": "INTRINSIC_%"
+    }
+  ],
+  "copy": [
+    {
+      "nodeId": "2:9",
+      "name": "FORME",
+      "text": "FORME"
+    },
+    {
+      "nodeId": "2:10",
+      "name": "MOTORWORKS",
+      "text": "MOTORWORKS"
+    },
+    {
+      "nodeId": "2:12",
+      "name": "The motorcycles",
+      "text": "The motorcycles"
+    },
+    {
+      "nodeId": "2:13",
+      "name": "Build your own",
+      "text": "Build your own"
+    },
+    {
+      "nodeId": "2:14",
+      "name": "Our workshop",
+      "text": "Our workshop"
+    },
+    {
+      "nodeId": "2:16",
+      "name": "Saved builds",
+      "text": "Saved builds"
+    },
+    {
+      "nodeId": "2:17",
+      "name": "(0)",
+      "text": "(0)"
+    },
+    {
+      "nodeId": "2:18",
+      "name": "↗",
+      "text": "↗"
+    },
+    {
+      "nodeId": "2:20",
+      "name": "THE CUSTOM GARAGE",
+      "text": "THE CUSTOM GARAGE"
+    },
+    {
+      "nodeId": "2:21",
+      "name": "Built around you.",
+      "text": "Built around you."
+    },
+    {
+      "nodeId": "2:23",
+      "name": "A machine with your name on it.",
+      "text": "A machine with your name on it."
+    },
+    {
+      "nodeId": "2:24",
+      "name": "Start with a classic. Make it unmistakably yours.",
+      "text": "Start with a classic. Make it unmistakably yours."
+    },
+    {
+      "nodeId": "2:30",
+      "name": "THE STANDARD",
+      "text": "THE STANDARD"
+    },
+    {
+      "nodeId": "2:31",
+      "name": "650  /  CAFÉ RACER",
+      "text": "650  /  CAFÉ RACER"
+    },
+    {
+      "nodeId": "2:34",
+      "name": "Handbuilt. Never mass-produced.",
+      "text": "Handbuilt. Never mass-produced."
+    },
+    {
+      "nodeId": "2:36",
+      "name": "01",
+      "text": "01"
+    },
+    {
+      "nodeId": "2:37",
+      "name": "/  03",
+      "text": "/  03"
+    },
+    {
+      "nodeId": "2:38",
+      "name": "SIDE PROFILE",
+      "text": "SIDE PROFILE"
+    },
+    {
+      "nodeId": "2:40",
+      "name": "−",
+      "text": "−"
+    },
+    {
+      "nodeId": "2:41",
+      "name": "+",
+      "text": "+"
+    },
+    {
+      "nodeId": "2:43",
+      "name": "ENGINE",
+      "text": "ENGINE"
+    },
+    {
+      "nodeId": "2:45",
+      "name": "648",
+      "text": "648"
+    },
+    {
+      "nodeId": "2:46",
+      "name": "cc",
+      "text": "cc"
+    },
+    {
+      "nodeId": "2:48",
+      "name": "PEAK POWER",
+      "text": "PEAK POWER"
+    },
+    {
+      "nodeId": "2:50",
+      "name": "47",
+      "text": "47"
+    },
+    {
+      "nodeId": "2:51",
+      "name": "hp",
+      "text": "hp"
+    },
+    {
+      "nodeId": "2:53",
+      "name": "TORQUE",
+      "text": "TORQUE"
+    },
+    {
+      "nodeId": "2:55",
+      "name": "52",
+      "text": "52"
+    },
+    {
+      "nodeId": "2:56",
+      "name": "Nm",
+      "text": "Nm"
+    },
+    {
+      "nodeId": "2:58",
+      "name": "DRY WEIGHT",
+      "text": "DRY WEIGHT"
+    },
+    {
+      "nodeId": "2:60",
+      "name": "196",
+      "text": "196"
+    },
+    {
+      "nodeId": "2:61",
+      "name": "kg",
+      "text": "kg"
+    },
+    {
+      "nodeId": "2:63",
+      "name": "01  Base",
+      "text": "01  Base"
+    },
+    {
+      "nodeId": "2:64",
+      "name": "—",
+      "text": "—"
+    },
+    {
+      "nodeId": "2:65",
+      "name": "02  Customize",
+      "text": "02  Customize"
+    },
+    {
+      "nodeId": "2:66",
+      "name": "—",
+      "text": "—"
+    },
+    {
+      "nodeId": "2:67",
+      "name": "03  Review",
+      "text": "03  Review"
+    },
+    {
+      "nodeId": "2:70",
+      "name": "Make it yours.",
+      "text": "Make it yours."
+    },
+    {
+      "nodeId": "2:71",
+      "name": "↗",
+      "text": "↗"
+    },
+    {
+      "nodeId": "2:73",
+      "name": "The Standard 650",
+      "text": "The Standard 650"
+    },
+    {
+      "nodeId": "2:74",
+      "name": "Change model",
+      "text": "Change model"
+    },
+    {
+      "nodeId": "2:78",
+      "name": "01 / TANK FINISH",
+      "text": "01 / TANK FINISH"
+    },
+    {
+      "nodeId": "2:79",
+      "name": "Included",
+      "text": "Included"
+    },
+    {
+      "nodeId": "2:92",
+      "name": "Forest olive",
+      "text": "Forest olive"
+    },
+    {
+      "nodeId": "2:93",
+      "name": "Matte finish",
+      "text": "Matte finish"
+    },
+    {
+      "nodeId": "2:96",
+      "name": "02 / LEATHER SEAT",
+      "text": "02 / LEATHER SEAT"
+    },
+    {
+      "nodeId": "2:97",
+      "name": "Included",
+      "text": "Included"
+    },
+    {
+      "nodeId": "2:101",
+      "name": "Tobacco",
+      "text": "Tobacco"
+    },
+    {
+      "nodeId": "2:102",
+      "name": "✓",
+      "text": "✓"
+    },
+    {
+      "nodeId": "2:105",
+      "name": "Midnight",
+      "text": "Midnight"
+    },
+    {
+      "nodeId": "2:108",
+      "name": "03 / EXHAUST",
+      "text": "03 / EXHAUST"
+    },
+    {
+      "nodeId": "2:109",
+      "name": "+$350",
+      "text": "+$350"
+    },
+    {
+      "nodeId": "2:112",
+      "name": "Brushed stainless",
+      "text": "Brushed stainless"
+    },
+    {
+      "nodeId": "2:113",
+      "name": "Twin pipes. A deeper kind of roar.",
+      "text": "Twin pipes. A deeper kind of roar."
+    },
+    {
+      "nodeId": "2:114",
+      "name": "⌄",
+      "text": "⌄"
+    },
+    {
+      "nodeId": "2:116",
+      "name": "↺",
+      "text": "↺"
+    },
+    {
+      "nodeId": "2:117",
+      "name": "Reset to original",
+      "text": "Reset to original"
+    },
+    {
+      "nodeId": "2:120",
+      "name": "YOUR ONE OF ONE",
+      "text": "YOUR ONE OF ONE"
+    },
+    {
+      "nodeId": "2:121",
+      "name": "The Standard. Your signature.",
+      "text": "The Standard. Your signature."
+    },
+    {
+      "nodeId": "2:122",
+      "name": "Forest olive  /  Tobacco leather  /  Brushed stainless",
+      "text": "Forest olive  /  Tobacco leather  /  Brushed stainless"
+    },
+    {
+      "nodeId": "2:125",
+      "name": "ESTIMATED TOTAL",
+      "text": "ESTIMATED TOTAL"
+    },
+    {
+      "nodeId": "2:127",
+      "name": "$9,850",
+      "text": "$9,850"
+    },
+    {
+      "nodeId": "2:128",
+      "name": "USD",
+      "text": "USD"
+    },
+    {
+      "nodeId": "2:131",
+      "name": "Review your build",
+      "text": "Review your build"
+    },
+    {
+      "nodeId": "2:132",
+      "name": "↗",
+      "text": "↗"
+    },
+    {
+      "nodeId": "2:133",
+      "name": "Made to order · Ready in 6–8 weeks",
+      "text": "Made to order · Ready in 6–8 weeks"
+    },
+    {
+      "nodeId": "2:135",
+      "name": "BUILT BY HAND. RIDDEN BY YOU.",
+      "text": "BUILT BY HAND. RIDDEN BY YOU."
+    },
+    {
+      "nodeId": "2:136",
+      "name": "2-year warranty",
+      "text": "2-year warranty"
+    },
+    {
+      "nodeId": "2:137",
+      "name": "Worldwide delivery",
+      "text": "Worldwide delivery"
+    },
+    {
+      "nodeId": "2:139",
+      "name": "A little guidance?",
+      "text": "A little guidance?"
+    },
+    {
+      "nodeId": "2:140",
+      "name": "Talk to a builder ↗",
+      "text": "Talk to a builder ↗"
+    }
+  ],
+  "colors": [],
+  "numbers": [],
+  "assets": {
+    "2e40e3dc81ad594c0fe897bffd59280394c1b773": "/figma-assets/2e40e3dc81ad594c0fe897bffd59280394c1b773.jpg"
+  },
+  "reference": {
+    "path": "/figma-assets/reference.png",
+    "bytes": 474578,
+    "frameId": "2:2",
+    "scale": 1,
+    "sourceVersion": "2423979417619108360"
+  },
+  "artifacts": {
+    "selectedFrame": "/figma-assets/frame.json",
+    "layoutTree": "/figma-assets/layout-tree.json",
+    "tokens": "/figma-assets/tokens.json",
+    "styles": "/figma-assets/styles.json",
+    "typography": "/figma-assets/typography.json",
+    "copy": "/figma-assets/copy.json",
+    "reference": "/figma-assets/reference.png"
+  }
+}
